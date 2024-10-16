@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALKULATOR KU📋</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="tombol('+')" class="operator-btn">+</button>
+            <button onclick="tombol('7')">7</button>
+            <button onclick="tombol('8')">8</button>
+            <button onclick="tombol('9')">9</button>
+            <button onclick="tombol('-')" class="operator-btn">-</button>
+            <button onclick="tombol('4')">4</button>
+            <button onclick="tombol('5')">5</button>
+            <button onclick="tombol('6')">6</button>
+            <button onclick="tombol('*')" class="operator-btn">x</button>
+            <button onclick="tombol('1')">1</button>
+            <button onclick="tombol('2')">2</button>
+            <button onclick="tombol('3')">3</button>
+            <button onclick="tombol('/')" class="operator-btn">/</button>
+            <button onclick="hasil()">=</button>
+            <button onclick="tombol('.')">.</button>
+            <button onclick="tombol('0')">0</button>
+            <button onclick="hapusLayar()" class="operator-btn">C</button>
+            <button onclick="hapus()" class="operator-btn">&larr;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
